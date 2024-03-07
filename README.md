@@ -51,7 +51,7 @@ Below are steps taken to build this project
 
 ## Author Linkedin URL 
 
-Linkedin URL - https://www.linkedin.com/in/darshan-patil
+Linkedin URL - https://www.linkedin.com/in/patil-darshan
 
 ## Author
 
