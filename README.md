@@ -23,7 +23,7 @@ math score: Student's score in Math
 reading score: Student's score in Reading
 writing score: Student's score in Writing
 
-URL - https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+URL - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
 
 ## Software Requirements 
 
