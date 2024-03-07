@@ -4,8 +4,8 @@
 
 ## Overview
 This project aims to predict student performance based on various factors such as Gender, Ethnicity, Parental Level of Education, Lunch, and Test Preparation Course. By analyzing these variables, the goal is to understand how they affect students' test scores and overall academic performance.
-Use of various classification models like Decision Tree, Random Forest, XGBoost, MLPClassifier was done. XGBoost was selected as best model from above. The XGBoost model provided 82.63% accuracy in training. Testing accuracy for model was 82.3%. 80% data was used for training and 20% data was used for testing.
-After Providing various details the model will predict whether customer will default next month or not. This project also provides the probability of default.
+Use of various classification models like Decision Tree, Random Forest, XGBoost,Linear Regression was done. Linear Regression was selected as best model from above. The Linear Regression model provided 88.03% accuracy in training. Testing accuracy for model was 87.3%. 80% data was used for training and 20% data was used for testing.
+After Providing various details the model will predict whether student will pass or not.
 
 ## Problem Statement
 The project seeks to investigate the impact of student characteristics on their performance in exams. Specifically, it analyzes how variables such as Gender, Ethnicity, Parental Level of Education, Lunch, and Test Preparation Course influence students' test scores.
@@ -56,15 +56,4 @@ Linkedin URL - https://www.linkedin.com/in/patil-darshan
 ## Author
 
 [@DarshanPatil02](https://github.com/DarshanPatil02)
-
-
-
-
-
-
-
-
-
-
-
 
