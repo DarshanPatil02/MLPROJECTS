@@ -1,6 +1,6 @@
 ## End to End Machine Learning Project
 
-# Credit Card Default Prediction - Utkarsh Gaikwad
+# Student Performance Prediction- Darshan Patil
 
 Financial threats are displaying a trend about the credit risk of commercial banks as the incredible improvement in the financial industry has arisen. In this way, one of the biggest threats faced by commercial banks is the risk prediction of credit clients. The goal is to predict the probability of credit default based on credit card owner's characteristics and payment history.
 
