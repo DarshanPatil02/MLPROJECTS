@@ -2,29 +2,36 @@
 
 # Student Performance Prediction- Darshan Patil
 
-Financial threats are displaying a trend about the credit risk of commercial banks as the incredible improvement in the financial industry has arisen. In this way, one of the biggest threats faced by commercial banks is the risk prediction of credit clients. The goal is to predict the probability of credit default based on credit card owner's characteristics and payment history.
-
+## Overview
+This project aims to predict student performance based on various factors such as Gender, Ethnicity, Parental Level of Education, Lunch, and Test Preparation Course. By analyzing these variables, the goal is to understand how they affect students' test scores and overall academic performance.
 Use of various classification models like Decision Tree, Random Forest, XGBoost, MLPClassifier was done. XGBoost was selected as best model from above. The XGBoost model provided 82.63% accuracy in training. Testing accuracy for model was 82.3%. 80% data was used for training and 20% data was used for testing.
 After Providing various details the model will predict whether customer will default next month or not. This project also provides the probability of default.
 
+## Problem Statement
+The project seeks to investigate the impact of student characteristics on their performance in exams. Specifically, it analyzes how variables such as Gender, Ethnicity, Parental Level of Education, Lunch, and Test Preparation Course influence students' test scores.
+
 ## Data Source
 
-In our dataset we have 25 columns which reflect various attributes of the customer. The target column is default.payment.next.month , which reflects whether the customer will default next month or not. Our aim is to predict the probability of default given the payment history of the customer. I have built my model using a public dataset available on kaggle.
+The dataset consists of 1000 rows and 8 columns:
+
+gender: Sex of students (Male/female)
+race/ethnicity: Ethnicity of students (Group A, B, C, D, E)
+parental level of education: Parents' final education (Bachelor's degree, Some college, Master's degree, Associate's degree, High school)
+lunch: Whether students had lunch before the test (Standard or Free/reduced)
+test preparation course: Whether students completed the test preparation course before the test (Complete or Not complete)
+math score: Student's score in Math
+reading score: Student's score in Reading
+writing score: Student's score in Writing
 
 URL - https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
 
-## WebSite URL
-
-My WebApp URL - https://creditcarddefaultutkarshg.herokuapp.com/
-
 ## Software Requirements 
 
-1) Python 3.10.7
+1) Python 3.8.12
 2) Visual Studio Code
 3) Git Cli
 4) Jupyter Notebook
-5) Heroku account
-6) GitHub account
+5) GitHub account
 
 ## Approach
 
@@ -40,29 +47,15 @@ Below are steps taken to build this project
 9) Select best model and make pickle file.
 10) Create app.py file which used dash library for front-end design.
 11) Test the app.py on local system.
-12) Create Procfile for deployement in Heroku platform.
-13) Add, Commit and Push all files from Local to GitHub
-14) Deploy to Heroku and Link the GitHub Repository
-
-## Documentation
-
-1) [Detailed-Project-Report](https://drive.google.com/file/d/1_DuqYwWFZDtCR-zMlmSWCd04-XJIXwMo/view?usp=sharing)
-2) [High-Level-Design-Document](https://drive.google.com/file/d/1iiKu75WIoyreuKWTatyDh-U22bl-oHnf/view?usp=sharing)
-3) [Low-Level-Design-Document](https://drive.google.com/file/d/1KnLZ-3xE1ZVwfcVjgvPE9o0IaRPr8w1w/view?usp=sharing)
-4) [Architecture](https://drive.google.com/file/d/1eC8BhaQe0DSRfXkELuCuTZf3Gb98Vvq1/view?usp=sharing)
-5) [Wireframe](https://drive.google.com/file/d/1GAQbhLFYdGvJDUwVYL33Iav3zJvbIBup/view?usp=sharing)
-
-# Project Demo
-
-[Youtube-Link](https://www.youtube.com/watch?v=ltktrNRSWEU)
+12) Add, Commit and Push all files from Local to GitHub
 
 ## Author Linkedin URL 
 
-Linkedin URL - https://www.linkedin.com/in/utkarsh-gaikwad-61194bbb
+Linkedin URL - https://www.linkedin.com/in/darshan-patil
 
 ## Author
 
-[@utkarshg1](https://github.com/utkarshg1)
+[@DarshanPatil02](https://github.com/DarshanPatil02)
 
 
 
